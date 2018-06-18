@@ -14,6 +14,7 @@ import { GoogleBtnComponent } from './google-btn/google-btn.component'
 import { HomePageComponent } from './home-page/home-page.component'
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component'
 
+
 const config = new AuthServiceConfig([
   {
     id: GoogleLoginProvider.PROVIDER_ID,
@@ -36,6 +37,7 @@ export function provideConfig() {
   imports: [
     BrowserModule,
     FormsModule,
+    MaterialComponent
     AppRoutingModule, 
     BrowserAnimationsModule,
     AppRoutingModule,
