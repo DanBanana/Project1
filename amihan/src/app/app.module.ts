@@ -37,7 +37,7 @@ export function provideConfig() {
   imports: [
     BrowserModule,
     FormsModule,
-    MaterialComponent
+    MaterialComponent,
     AppRoutingModule, 
     BrowserAnimationsModule,
     AppRoutingModule,
